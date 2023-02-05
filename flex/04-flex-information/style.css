@@ -10,6 +10,25 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.info-bits {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.barberry, .chili, .pepper, .saffron {
+  flex: 0 0 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text, .title {
+  text-align: center;
 }
 
 /* do not edit this footer */
